@@ -4,8 +4,12 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"No tests specified. Skipping tests.\" && exit 0"
+    "test": "jest"
   },
+  "jest": {
+  "testEnvironment": "node"
+  },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -14,6 +18,7 @@
     "express": "^4.19.2"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
   }
 }
