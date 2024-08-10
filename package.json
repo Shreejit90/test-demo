@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"No tests to run.\""
+    "test": "echo \"No tests specified. Skipping tests.\" && exit 0"
   },
   "keywords": [],
   "author": "",
